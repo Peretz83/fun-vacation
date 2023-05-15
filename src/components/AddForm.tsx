@@ -27,6 +27,7 @@ function AddForm({ onAdd }: Props) {
         setError('');
         return true;
     }
+console.log("it worked");
 
     function handleClick() {
         if (!validate()) {
